@@ -1,0 +1,75 @@
+.buttonTermin p {
+	margin: 0 !important;
+}
+
+.uhrZeit .btn{
+	padding: 0px 20px !important;
+}
+
+.buttonTermin p span {
+	color: white !important;
+    
+}
+
+
+.buttonTermin p  {
+	color: white !important;
+	background: #00000063;
+	border-radius: 20px
+}
+
+.my_active p span{
+	color: white !important; 
+	font-weight: 600;
+	transition: all 400ms
+}
+
+.showMonday,
+.showTuesday,
+.showWednesday,
+.showThursday,
+.showFriday,
+.showSaturday,
+.showSunday {
+
+    display: none;
+}
+
+#mnBtn, #heutBtn {
+
+display: none;
+
+}
+
+.our_nav {
+
+    cursor: pointer;
+}
+
+.our_nav.my_active p {
+
+    border-radius: 20px;
+   background: #840000ba;
+   color: white;
+   transition: all 700ms
+
+}
+
+@media only screen and (max-width:400px){
+	.uhrZeit{
+		padding: 5px 0px 0px 0px;
+	}
+	.uhrZeit .btn{
+	padding: 0px 20px !important;
+		transform: scale(0.7);
+}
+	.imgZeit{
+		margin-top: 4px;
+		transform: scale(1.4);
+	}
+	
+	#datesKurse{
+		transform: scale(0.85);
+	}
+
+}
